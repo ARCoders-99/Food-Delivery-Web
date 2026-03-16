@@ -9,7 +9,7 @@ import Add from "./pages/Add/Add";
 import Order from "./pages/Order/Order";
 
 const App = () => {
-    const url = "http://localhost:4000";
+    const url = "https://food-delivery-backend-ryy8.onrender.com";
 
   return (
     <div>
