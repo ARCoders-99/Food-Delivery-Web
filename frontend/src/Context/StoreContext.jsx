@@ -4,7 +4,7 @@ import { useCallback } from "react";
 //eslint-disable-next-line react-refresh/only-export-components
 export const StoreContext = createContext({ food_list: [] });
 
-const url = "http://localhost:4000";
+const url = "https://food-delivery-backend-ryy8.onrender.com";
 
 const StoreContextProvider = (props) => {
   const [cartItems, setcartItems] = useState({});
